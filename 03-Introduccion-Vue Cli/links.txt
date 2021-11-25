@@ -1,0 +1,13 @@
+https://v3.vuejs.org/guide/computed.html#computed-properties
+https://v3.vuejs.org/guide/component-props.html#prop-types
+ https://v3.vuejs.org/guide/component-props.html#prop-validation
+
+
+
+documentacion de jest para las pruebas de la app
+https://jestjs.io/
+https://jestjs.io/docs/setup-teardown
+
+
+link para saber mas de VM
+https://vue-test-utils.vuejs.org/api/wrapper/#attributes 

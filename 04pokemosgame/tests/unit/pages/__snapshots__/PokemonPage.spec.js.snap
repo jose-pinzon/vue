@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon page component Debe de hacer match cuando los datos cargan 1`] = `
+<h1>¿Quien es el pokemon?</h1><!-- <div v-if="pokemon != null"> -->
+<div><span><h2>vidas restantes: 3</h2></span>
+  <pokemon-picture-stub pokemonid="1" showpokemon="false" vidas="3"></pokemon-picture-stub>
+  <pokemon-options-stub pokemones="[object Object],[object Object],[object Object],[object Object]"></pokemon-options-stub>
+  <!--Este evento trae el valor que mandamos del componete hijo-->
+</div>
+<!--v-if-->
+`;

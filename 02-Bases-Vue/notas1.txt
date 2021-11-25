@@ -1,0 +1,6 @@
+links
+modificadores de eventos
+https://v3.vuejs.org/guide/events.html#event-modifiers
+
+v-if y v-show
+https://v3.vuejs.org/guide/conditional.html#v-show

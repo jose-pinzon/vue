@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`componente de Indecision mach con el snapshop 1`] = `
+<h1>Indecision</h1>
+<!--v-if-->
+<!--Como la imagen esta en null entonces el if sera false y no mostrara la imagen al inicio -->
+<div class="bg-dark"></div>
+<div class="indecision-container"><input type="text" placeholder="Hazme una pregunta">
+  <p data="parrafo">recuerda terminar con signo de interrogacion (?)</p>
+  <!--v-if-->
+</div>
+`;
