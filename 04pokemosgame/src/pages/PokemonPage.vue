@@ -43,6 +43,7 @@ export default {
     methods:{
         async pokemonesAll(){
             this.pokemonArr = await GetPokemonOptions();
+            console.log(this.pokemonArr)
             const rndInt = Math.floor(Math.random() * 4)//?generar un numero aleatorio del 1 al 4 , porque lo estamos multiplicando por 4
             this.pokemon = this.pokemonArr[rndInt]
         },
