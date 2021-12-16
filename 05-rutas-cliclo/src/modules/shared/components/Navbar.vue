@@ -17,11 +17,20 @@ export default {
     name:'navbar',
     data(){
         return{
-            Links:[
-                {to:'/pokemon/home', name:'Home'},
-                {to:'/pokemon/pokemonId/50', name:'PaginaPokemon'},
-                {to:'/pokemon/about', name:'about'},
+            Links:[//estos son las url que le pasaremos al custon link que es el custom personalizado
+                //?Forma de acerlo con el nombre de la ruta
+                {to:'pokemon-home', name:'Home'},
+                {to:'PaginaPokemonid', name:'PaginaPokemon', id:50},
+                {to:'pokemon-about', name:'about'},
+                {to:'personajes-naruto', name:'Personajes Naruto'},
+                {to:'about-naruto', name:'About Naruto'},
                 {to:'https://google.com', name:'Google'},
+
+                //!!Forma de hacerlo con url
+                // {to:'/pokemon/home', name:'Home'},
+                // {to:'/pokemon/pokemonId/50', name:'PaginaPokemon'},
+                // {to:'/pokemon/about', name:'about'},
+                // {to:'https://google.com', name:'Google'},
                 
             ]
         }
