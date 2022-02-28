@@ -1,18 +1,18 @@
 <template>
-    <h1>Indecision</h1>
-    <img :src="img" alt="bg" v-if="img!=null"><!--Como la imagen esta en null entonces el if sera false y no mostrara la imagen al inicio -->
-    <div class="bg-dark"></div>
-    <div class="indecision-container">
-        <input type="text" placeholder="Hazme una pregunta" v-model="question">
-        <p data="parrafo">recuerda terminar con signo de interrogacion (?)</p>
-        <div v-if="isValidQuestion">
-            <h2>{{question}}</h2>
-            <h1>{{answer}}</h1>
-
+    <div>
+        <h1>Indecision</h1>
+        <img :src="img" alt="bg" v-if="img!=null"><!--Como la imagen esta en null entonces el if sera false y no mostrara la imagen al inicio -->
+        <div class="bg-dark"></div>
+        <div class="indecision-container">
+            <input type="text" placeholder="Hazme una pregunta" v-model="question">
+            <p data="parrafo">recuerda terminar con signo de interrogacion (?)</p>
+            <div v-if="isValidQuestion">
+                <h2>{{question}}</h2>
+                <h1>{{answer}}</h1>
+            </div>
         </div>
+        
     </div>
-
-    
 </template>
 
 <script>
@@ -54,8 +54,6 @@ export default {
     watch: {
         question(value,oldValue ){
             this.isValidQuestion = false
-
-            console.log({value});
             if( !value.includes('?') ) return //aqui le decimos que salgas si se cumple la condicion
     
             this.isValidQuestion = true

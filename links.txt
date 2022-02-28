@@ -10,4 +10,18 @@ https://jestjs.io/docs/setup-teardown
 
 
 link para saber mas de VM
-https://vue-test-utils.vuejs.org/api/wrapper/#attributes 
+https://vue-test-utils.vuejs.org/api/wrapper/#attributes
+
+
+vuex
+https://next.vuex.vuejs.org/
+ 
+
+
+Documentacion de sass 
+
+https://sass-lang.com/
+
+
+iconos font aweasome
+https://cdnjs.com/libraries/font-awesome

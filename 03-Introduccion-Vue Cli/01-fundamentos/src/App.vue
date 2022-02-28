@@ -10,7 +10,7 @@
   <!-- <counter titulo="Segundo"> </counter> -->
   <!-- <counter :start="10" > </counter>Valor por defecto del contador se usa v:bind para poder pasar solo el valor -->
 
-  <pruebas :num=10></pruebas>
+
 
 </template>
 

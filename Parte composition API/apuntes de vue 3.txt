@@ -1,0 +1,3 @@
+ para que en vue nos genere id unicos tenemos que instalar un paquete
+
+yarn add uuid
