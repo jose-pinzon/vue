@@ -9,8 +9,13 @@ export default createStore({
         {id:3, text:'Piedra de poder', completed:true },
         {id:4, text:'Piedra de realidad', completed:false },
         {id:5, text:'nuevos secuaces compententes', completed:false },
-   
+      ],
 
+      peliculas:[
+        {id:1,name:'spiderman'},
+        {id:2,name:'batman'},
+        {id:3,name:'jumanji'},
+        {id:4,name:'cocojose'},
       ]
 
 
