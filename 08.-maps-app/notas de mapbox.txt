@@ -1,0 +1,14 @@
+Para poder instalar mapbox primero se tiene que instalar mediante el yarn o el npm 
+como esta en la documentacion 
+		npm install --save mapbox-gl
+ y los estilos de mapbox se usaran mediante su cdn 
+		<link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+
+
+despues en el main importaremos el token
+
+import mapboxgl from 'mapbox-gl'; // or "const mapboxgl = require('mapbox-gl');"
+ 
+mapboxgl.accessToken = 'pk.eyJ1IjoicGluem9uIiwiYSI6ImNsMjlwbTE4OTAyMjQzZHIxNWZid3djZjUifQ.XreOoJucya8xUU7hcfRhYA';
+
+//////Despues instalar el npm i --save-dev @types/mapbox-gl para que typescript lo reconosca, para que se quite el error en la importacion de mapbox
